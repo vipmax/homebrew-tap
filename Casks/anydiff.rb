@@ -7,7 +7,7 @@ cask "anydiff" do
   desc "High-performance native macOS MultiBuffer Diff editor with embedded AI agent"
   homepage "https://github.com/vipmax/anydiff"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AnyDiff.app"
   binary "#{appdir}/AnyDiff.app/Contents/MacOS/AnyDiff", target: "anydiff"
