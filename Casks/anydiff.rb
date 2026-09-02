@@ -1,6 +1,6 @@
 cask "anydiff" do
   version "1.1.1"
-  sha256 "2aadd67d26f00803ff4c8774505aee3e22f0d758537c9a5fd4d2587aabacac9f"
+  sha256 "48da6f924b2df0d076d930993a3647c73927bfc6623fc9a015b7ddc08c491393"
 
   url "https://github.com/vipmax/anydiff/releases/download/v#{version}/AnyDiff-macOS.zip"
   name "AnyDiff"
