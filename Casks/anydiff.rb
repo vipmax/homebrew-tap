@@ -1,8 +1,11 @@
 cask "anydiff" do
-  version "1.5.0"
-  sha256 "953510e07fee95018138f9231416551629babcd574dfd2ada3ba5c865c68b1a7"
+  arch arm: "arm64", intel: "x86_64"
 
-  url "https://github.com/vipmax/anydiff/releases/download/v#{version}/AnyDiff-macOS.zip"
+  version "1.5.1"
+  sha256 arm:   "c164568dadf4a11963a941d9e0ca31fd2e1778cb95eb5fb1cf2d72ea52ba3792",
+         intel: "5bb341e69194734fccb4a2cd5e4b1e6be10a73ad0207d9ec25edba702856ead6"
+
+  url "https://github.com/vipmax/anydiff/releases/download/v#{version}/AnyDiff-macOS-#{arch}.zip"
   name "AnyDiff"
   desc "High-performance native macOS MultiBuffer Diff editor with embedded AI agent"
   homepage "https://github.com/vipmax/anydiff"
