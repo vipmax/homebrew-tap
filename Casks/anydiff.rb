@@ -1,9 +1,9 @@
 cask "anydiff" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.7.1"
-  sha256 arm:   "3ef3a37443d13005b04ebdf6b673a5646c29a3399ae8c85f30ff6faa134d7a98",
-         intel: "1903f4331e346bb29c29b54eb50d10666a4b1c14e419365b1ca95a5934105d35"
+  version "1.7.2"
+  sha256 arm:   "79d0627af3345ed6d74a9b16cdb72a8e12250ff2df07f48d96c3921ece0cfaef",
+         intel: "2db38cef9016f210460b06535dc9eede0c8bafe568b1632ccddf405abe6235e3"
 
   url "https://github.com/vipmax/anydiff/releases/download/v#{version}/AnyDiff-macOS-#{arch}.zip"
   name "AnyDiff"
